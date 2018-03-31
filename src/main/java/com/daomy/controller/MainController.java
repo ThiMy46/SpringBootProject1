@@ -28,7 +28,7 @@ public class MainController {
 	@Autowired
 	private AccountService accService;
 	
-	@GetMapping("/home")
+	@GetMapping("/")
 	public String home(HttpServletRequest request){
 		request.setAttribute("news", newsService.findAll());
 		return "home";

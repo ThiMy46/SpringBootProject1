@@ -22,7 +22,7 @@
             <textarea id="content" id="content" name="content" required>
                 ${news.content}
             </textarea>
-            <button href="upload?" style="padding:5px 10px 5px 10px;margin-top:10px;background-color:#c6c8ca;">Add File</button>
+            <!-- <button href="upload?" style="padding:5px 10px 5px 10px;margin-top:10px;background-color:#c6c8ca;">Add File</button> -->
             
             <button type="submit" style="padding:5px 10px 5px 10px;margin-top:10px;background-color:#139ff7;float:right;">SAVE</button>
         </form>
